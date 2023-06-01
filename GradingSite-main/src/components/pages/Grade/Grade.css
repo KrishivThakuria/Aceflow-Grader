@@ -1,0 +1,134 @@
+.App-header{
+    background: #F6F9F4;
+    
+}
+#pageHeader{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #28A334;
+}
+
+#gradeLabel{
+    color: #1B0166;
+    font: bolder;
+}
+
+#mediaHeader{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+
+color: #F2F2F2;
+background: #141996;
+}
+
+#feedbackContainer{
+    background: #EEEBF8;
+    padding: 2em;
+    
+}
+
+
+.wordValue{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #4B0A9C;
+}
+
+#feedbackText{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+#feedbackSummary{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FBF3F3;
+background: #9890BA;
+}
+
+#brainLoading {
+    animation: growshrink 1s infinite alternate;
+}
+
+@keyframes growshrink {
+    from {transform: scale(1, 1); }
+    to {transform: scale(1.5, 1.5); }
+}
+
+.fa-trash:hover {
+    transition: 0.4s
+}
+
+.fa-trash:hover {
+    cursor: pointer;
+    color: #c63535
+}
+
+#feedbackBox{
+    background: #EEEBF8;
+    padding: 30px;
+    border-radius: 47px;
+    position: relative;
+    top: 60px;
+}
+
+#feedbackTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    
+    color: #F2F2F2;
+    background: #141996;
+    border-radius: 30px;
+    padding: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}   
+
+.counts{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4B0A9C;
+}
+
+#divider{
+    background: #141996;
+    border-radius: 15px;
+    padding:5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#makingCenter1{
+    display: 'flex';
+    justify-content: 'space-evenly';
+    position: relative;
+    margin-top: 30px;
+}
